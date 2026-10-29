@@ -1,0 +1,46 @@
+{
+  "name": "motion-studio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "check": "next typegen && tsc --noEmit -p . && eslint src scripts --quiet",
+    "setup:ia": "node scripts/setup-ia.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.539",
+    "@remotion/captions": "^4.0.539",
+    "@remotion/cli": "^4.0.539",
+    "@remotion/install-whisper-cpp": "^4.0.539",
+    "@remotion/player": "^4.0.539",
+    "@remotion/renderer": "^4.0.539",
+    "@tanstack/react-query": "^5.105.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.64.0",
+    "nanoid": "^6.0.2",
+    "next": "16.4.3",
+    "radix-ui": "^1.8.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-resizable-panels": "^4.15.1",
+    "remotion": "^4.0.539",
+    "tailwind-merge": "^3.7.0",
+    "zustand": "^5.0.16"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

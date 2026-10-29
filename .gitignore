@@ -1,0 +1,10 @@
+# O app tem o próprio .gitignore em motion-studio/ (node_modules, .next, data, vibe)
+
+# configurações locais de assistentes de IA
+.claude/settings.local.json
+.claude/worktrees/
+
+# sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
